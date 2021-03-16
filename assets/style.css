@@ -1,1 +1,27 @@
+#headBanner {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
 
+#logo {
+    height: 4rem;
+    width: 4.5rem;
+}
+
+#title {
+    font-size: 1.5rem;
+    color: rgba(219, 91, 59, 0.781);
+}
+
+#cardsPanel {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    height: 6rem;
+    width: 6.5rem;
+}
