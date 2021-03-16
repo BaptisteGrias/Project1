@@ -1,1 +1,18 @@
+@media screen and (max-width: 414px) { 
+.parent-card{
+    display:flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.card{
+    justify-content: center;
+   margin-bottom:10px;
+
+}
+
+.photo{
+    width:70%;
+    }
+  }
 
