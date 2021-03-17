@@ -14,9 +14,16 @@
     color: rgba(219, 91, 59, 0.781);
 }
 
-#cardsPanel {
+/*#cardsPanel {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}*/
+
+.parent-card {
+    display: flex;
+    justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
 }
@@ -24,4 +31,23 @@
 .photo {
     height: 6rem;
     width: 6.5rem;
+}
+
+#clipShape {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.photoTest {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 26.5rem;
+    right: 10rem;
+    top: 10rem;
+    bottom: 10rem;
+
 }
