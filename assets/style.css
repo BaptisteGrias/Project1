@@ -1,5 +1,5 @@
 #headBanner {
-    background-color: #FA7741;
+    background-color: #aee6ee;
     width: 100%;
     height: 150px;
 }
@@ -11,53 +11,113 @@
 }
 
 #title {
-    font-size: 50px;
+    font-size: 5em;
     color: rgba(8, 8, 8, 0.781);
     text-align: center;
+}
+
+.photo{
+    /*  width:40%; */
+      border-radius:90%;
+      margin-bottom:10px;
+      }
+
+
+@media screen and (max-width: 768px) { 
+   
+    #headBanner {
+        background-color: #aee6ee;
+        width: 100%;
+        height: 150px;
+    }
     
-}
-
-.parent-card{
-    display:block;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.card{
-    margin-bottom:10px;
-}
-
-.photos{
-    width:10%;
-}
-
-@media screen and (max-width: 700px) { 
-
+    #logo {
+       height: 100px;
+       margin-bottom: -110px;
+       padding-left: 50px;
+    }
+    
+    #title {
+        font-size: 2em;
+        color: rgba(8, 8, 8, 0.781);
+        text-align: center;
+    }
+    
  
-    .parent-card{
-            display:flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
+   /* .parent-card{        
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    }
 
     .card{
-            justify-content: center;
-           margin-bottom:10px;
-        
+    justify-content: center;
+    margin-bottom:10px;
         }
+    */
+    
+    .parent-card{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card{
+    justify-content: center;  
+    flex-basis: calc(30% - 30px);
+    padding:10px;    
+    }
+
+    .card p{
+        text-align: center;
+    }
+
+    .card p a{
+        text-decoration: none;
+        color:black;
+    }
+
+
     .photo{
-        width:80%;
-        border-radius:90%;
-        }
+      /*  width:40%; */
+    border-radius:90%;
+    margin-bottom:10px;
+    }
 }
 
 
-@media screen and (max-width: 414px) { 
+@media screen and (max-width: 375px) { 
+
+    #headBanner {
+        background-color: #aee6ee;
+        width: 100%;
+        height: 150px;
+    }
+    
+    #logo {
+       height: 100px;
+       margin-bottom: -110px;
+       /*padding-left: 50px; */
+    }
+    
+    #title {
+        font-size: 1.5em;
+        color: rgba(8, 8, 8, 0.781);
+        text-align: center;
+    }
 .parent-card{
-    display:flex;
-    flex-direction: column;
-	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
 }
+
 
 .card{
     justify-content: center;
@@ -66,8 +126,9 @@
 }
 
 .photo{
-    width:60%;
+   /* width:40%; */
     border-radius:70%;
+    margin-bottom:10px;
     }
   }
 
