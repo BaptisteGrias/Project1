@@ -1,13 +1,19 @@
+html, body {
+    margin:0;
+    padding:0;
+    }
+
 #headBanner {
     background-color: #aee6ee;
     width: 100%;
-    height: 150px;
+    height: 100px;
+    display:flex;
 }
 
 #logo {
    height: 100px;
    margin-bottom: -110px;
-   padding-left: 50px;
+   
 }
 
 #title {
@@ -23,18 +29,33 @@
       }
 
 
+footer{
+   
+    height:30px;
+    background-color:#aee6ee;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.footer{
+    text-decoration: none;
+    color:black;
+}
+
 @media screen and (max-width: 768px) { 
    
     #headBanner {
         background-color: #aee6ee;
         width: 100%;
-        height: 150px;
+        height: 100px;
+        display:flex;
     }
     
     #logo {
-       height: 100px;
+       height: 90px;
        margin-bottom: -110px;
-       padding-left: 50px;
+      
     }
     
     #title {
@@ -79,14 +100,24 @@
     .card p a{
         text-decoration: none;
         color:black;
+        justify-content: center;
+         margin-bottom:10px;
     }
 
-
-    .photo{
-      /*  width:40%; */
-    border-radius:90%;
-    margin-bottom:10px;
+    footer{
+   
+        height:30px;
+        background-color:#aee6ee;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
     }
+    
+    .footer{
+        text-decoration: none;
+        color:black;
+    }
+    
 }
 
 
@@ -95,13 +126,14 @@
     #headBanner {
         background-color: #aee6ee;
         width: 100%;
-        height: 150px;
+        height: 90px;
+        display:flex;
     }
     
     #logo {
-       height: 100px;
+       height: 60px;
        margin-bottom: -110px;
-       /*padding-left: 50px; */
+      
     }
     
     #title {
@@ -109,6 +141,7 @@
         color: rgba(8, 8, 8, 0.781);
         text-align: center;
     }
+
 .parent-card{
 	display: flex;
 	flex-direction: column;
@@ -121,8 +154,14 @@
 
 .card{
     justify-content: center;
-   margin-bottom:10px;
+     margin-bottom:10px;
+}
 
+.card p a{
+    text-decoration: none;
+    color:black;
+    justify-content: center;
+     margin-bottom:10px;
 }
 
 .photo{
@@ -130,5 +169,20 @@
     border-radius:70%;
     margin-bottom:10px;
     }
+
+    footer{
+   
+        height:30px;
+        background-color:#aee6ee;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .footer{
+        text-decoration: none;
+        color:black;
+    }
+    
   }
 
