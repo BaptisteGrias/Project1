@@ -1,34 +1,32 @@
 #headBanner {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+    background-color: #fc8a59;
+    width: 100%;
+    height: 10em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    margin-bottom: 1rem;
+    padding-right: 1.1em;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
-    height: 4rem;
-    width: 4.5rem;
+   height: 8em;
+   padding-left: 2em;
+   margin-right: 2em;
 }
 
 #title {
-    font-size: 1.5rem;
-    color: rgba(219, 91, 59, 0.781);
+    font-size: 3.5em;
+    color: white;
+    padding-right: 0.5em;
 }
 
-/*#cardsPanel {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-wrap: wrap;
-}*/
-
-.parent-card {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
-}
 
 /*Below is the class-chart style*/
+
+@media screen and (min-width: 1024px) {
 
 #frame {
     display: inline-flex;
@@ -40,19 +38,16 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.parent-photo {
     position: relative;
 }
 
 #child-photo1 {
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 50%;
     position: absolute;
-    left: 27.3rem;
-    top: 5rem;
+    left: 27%;
+    top: 16%;
 }
 
 #child-photo2 {
@@ -60,7 +55,189 @@
     height: 4.5rem;
     border-radius: 50%;
     position: absolute;
-    left: 46rem;
-    top: 10rem;
+    left: 35%;
+    top: 33%;
+
+}
+
+#child-photo3 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 19%;
+    top: 44%;
+
+}
+
+#child-photo4 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo5 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo6 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo7 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo8 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo9 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo10 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo11 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo12 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo13 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo14 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo15 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo16 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo17 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo18 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo19 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
+
+#child-photo20 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    top: 33%;
+
+}
 
 }
