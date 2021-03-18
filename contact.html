@@ -8,30 +8,60 @@
     <title>Contact</title>
 </head>
     <body>
-        <form id="contact">
+      <header id="headBanner"> 
+        <img id="logo" src="assets/wildcodeschool.png" alt="Logo Wild Code School">
+        <h1 id="title">Portfolio Promo Remote Mars 2021</h1>
+        
+      </header>
 
-          <div class="formulaire">
+      <h2>Formulaire de contact</h2></br>
 
-            <label for="name">Prénom</label><br/>
-            <input type="text" id="prenom" name="prenom"/><br/>
-         
-            <label for="name">Nom</label><br/>
-            <input type="text" id="nom" name="nom"/><br/>
-          
-            <label for="email">Email</label><br/>
-            <input type="text" id="email" name="email"/><br/>
-          
-          
-            <label for="message">Message</label><br/>
-            <textarea id="message" name="message"></textarea><br/>
-            </div>
+        <form class="contact-form">
 
-            <div class="bouton">
             
-            <input id="submit_button" type="submit" value="Envoyez" />
-            </div>
+            <h3>Vos coordonnées</h3>
+            <div class="coordonnees-box"> 
+              
+            </br>
+            <label for="name"></label>Prénom et Nom <span class="etoile">*</span><br/>
+            <input type="text" id="nom-form" name="nom"/><br/><br/>
+
+            <label for="email">Email <span class="etoile">*</span></label><br/>
+            <input type="text" id="email-form" name="email"/><br/><br/>
+
+            <label for="name">Entreprise</label><br/>
+            <input type="text" id="entreprise-form" name="entreprise"/><br/><br/>
+
+            <label for="email">Téléphone</label><br/>
+            <input type="text" id="tel-form" name="telephone"/><br/><br/>
+
+            <label for="email">Wilder </label><br/>
+            <input type="text" id="wilder-form" name="wilder"/><br/><br/>
+
+            
+          </div>
+
+        </br></br>
+
+          <h3>Votre message</h3>
+            <div class="message-box">
+            </br>
+            <label for="name">Sujet <span class="etoile">*</span></label><br/>
+            <input type="text" id="sujet-form" name="sujet"/><br/><br/><br/>
+          
+            <label for="message">Message <span class="etoile">*</span></label><br/>
+            <textarea id="message-form" name="message"></textarea><br/><br/>
+          </div>
+          <br/>
+            <div class="bouton">
+              
+            <input id="submit-form" type="submit" value="Envoyez"  />
+           </div>
+           
         </form>
-     
+     <footer>
+
+      </footer>
       <script src="assets/style.js"></script>
     </body>
 </html>
