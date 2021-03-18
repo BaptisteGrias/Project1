@@ -1,5 +1,11 @@
+html, body {
+    margin:0;
+    padding:0;
+    }
+
+
 #headBanner {
-    background-color: #fc8a59;
+    background-color: #aee7ee;
     width: 100%;
     height: 10em;
     margin-left: -0.5em;
@@ -18,561 +24,263 @@
 }
 
 #title {
-    font-size: 3.5em;
+    font-size: 3em;
     color: white;
     padding-right: 0.5em;
 }
 
 
-/*Below is the class-chart style*/
+
+/*---------------------------------------------------------Below is the class-chart style*/
 
 @media screen and (min-width: 1024px) {
 
-#frame {
-    display: inline-flex;
-    justify-content: center;
-    width: 100%;
-}
-
-#logo-canvas {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-
-#child-photo1 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 27%;
-    top: 16%;
-}
-
-#child-photo2 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 35%;
-    top: 33%;
-
-}
-
-#child-photo3 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 19%;
-    top: 44%;
-
-}
-
-#child-photo4 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo5 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo6 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo7 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo8 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo9 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo10 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo11 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo12 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo13 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo14 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo15 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo16 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo17 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo18 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo19 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-#child-photo20 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 34.5%;
-    top: 33%;
-
-}
-
-}
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img class="photo" src="assets/images/image-carrée.jpg" alt="Logo Wild Code School"></a>
-<p><a href="#">Kevin Touyard</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-html, body {
-    margin:0;
-    padding:0;
-    }
-
+   
+         
+ 
+     #frame {
+            display: inline-flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #logo-canvas {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        .card p {
+            display:none;
+        }    
+
+        #child-photo1 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 22%;
+            top: 30%;
+        }
+
+        #child-photo2 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 35%;
+            top: 33%;
+
+        }
+
+        #child-photo3 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 40%;
+            top: 44%;
+
+        }
+
+        #child-photo4 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 45%;
+            top: 33%;
+
+        }
+
+        #child-photo5 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 33%;
+
+        }
+
+        #child-photo6 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 55%;
+            top: 33%;
+
+        }
+
+        #child-photo7 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 70%;
+            top: 33%;
+
+        }
+
+        #child-photo8 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 75%;
+            top: 33%;
+
+        }
+
+        #child-photo9 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 70%;
+            top: 33%;
+
+        }
+
+        #child-photo10 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo11 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo12 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo13 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo14 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo15 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo16 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo17 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo18 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo19 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+
+        #child-photo20 {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+
+        }
+        */
+        
+    /*
 #headBanner {
-    background-color: #aee6ee;
+    background-color: #aee7ee;
     width: 100%;
     height: 100px;
     display:flex;
 }
+*/
+
 
 #logo {
-   height: 100px;
-   margin-bottom: -110px;
+   height: 5em;
+   
    
 }
 
+
+
 #title {
-    font-size: 5em;
-    color: rgba(8, 8, 8, 0.781);
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
-.photo{
-    /*  width:40%; */
+ .photo{
+     width:40%; 
       border-radius:90%;
       margin-bottom:10px;
       }
@@ -581,7 +289,7 @@ html, body {
 footer{
    
     height:30px;
-    background-color:#aee6ee;
+    background-color:#aee7ee;
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -592,45 +300,47 @@ footer{
     color:black;
 }
 
-@media screen and (max-width: 768px) { 
+}
+
+/*MEDIA SCREEN TABLETTE-------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1001px) { 
+
+    #frame {
+        display: none;
+       
+    }
+
+    #logo-canvas {
+       display:none;
+    }
    
     #headBanner {
-        background-color: #aee6ee;
+        background-color: #aee7ee;
         width: 100%;
         height: 100px;
         display:flex;
     }
     
     #logo {
-       height: 90px;
-       margin-bottom: -110px;
+       height:4em;
+       
       
     }
     
     #title {
         font-size: 2em;
-        color: rgba(8, 8, 8, 0.781);
+        color: rgb(255, 255, 255);
         text-align: center;
+        padding:5px;
     }
     
  
-   /* .parent-card{        
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;
-    }
-
-    .card{
-    justify-content: center;
-    margin-bottom:10px;
-        }
-    */
-    
     .parent-card{
-        display:flex;https://beataskorek.art/wp-content/uploads/2021/02/portfolio1.jpg
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
 
     .card{
     justify-content: center;  
@@ -649,10 +359,17 @@ footer{
          margin-bottom:10px;
     }
 
+    .photo{
+        /* width:40%; */
+         border-radius:70%;
+         margin-bottom:10px;
+         margin-top:0;
+         }
+     
     footer{
    
         height:30px;
-        background-color:#aee6ee;
+        background-color:#aee7ee;
         display: flex;
         justify-content: center;
         padding: 5px;
@@ -666,24 +383,104 @@ footer{
 }
 
 
-@media screen and (max-width: 375px) { 
+}
+/*MEDIA SCREEN TABLETTE-------------------------------------------------------------------------*/
 
+@media screen and (max-width: 778px) { 
+
+
+    #frame {
+        display: none;
+       
+    }
+
+    #logo-canvas {
+       display:none;
+    }
+   
     #headBanner {
-        background-color: #aee6ee;
+        background-color: #aee7ee;
         width: 100%;
-        height: 90px;
+        height: 100px;
         display:flex;
     }
     
     #logo {
-       height: 60px;
-       margin-bottom: -110px;
+       height:4em;
+       
       
     }
     
     #title {
         font-size: 1.5em;
-        color: rgba(8, 8, 8, 0.781);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding:5px;
+    }
+    
+ 
+    .parent-card{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+
+    .card{
+    justify-content: center;  
+    flex-basis: calc(30% - 30px);
+    padding:10px;    
+    }
+
+    .card p{
+        text-align: center;
+    }
+
+    .card p a{
+        text-decoration: none;
+        color:black;
+        justify-content: center;
+         margin-bottom:10px;
+    }
+
+    .photo{
+        /* width:40%; */
+         border-radius:70%;
+         margin-bottom:10px;
+         margin-top:0;
+         }
+     
+    footer{
+   
+        height:30px;
+        background-color:#aee7ee;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .footer{
+        text-decoration: none;
+        color:black;
+    }
+    
+}
+
+/*MEDIA SCREEN SMARTPHONE -------------------------------------------------------------------------*/
+
+@media screen and (max-width: 375px) { 
+.card p {
+        display:flex;
+    }
+    
+    #logo {
+       height: 4em;
+       
+      
+    }
+    
+    #title {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
         text-align: center;
     }
 
@@ -719,7 +516,7 @@ footer{
     footer{
    
         height:30px;
-        background-color:#aee6ee;
+        background-color:#aee7ee;
         display: flex;
         justify-content: center;
         padding: 5px;
