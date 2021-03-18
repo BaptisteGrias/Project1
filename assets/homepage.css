@@ -41,7 +41,6 @@
     position: relative;
 }
 
-/* below are all the photos */
 
 #child-photo1 {
     width: 4.5rem;
@@ -243,3 +242,490 @@
 }
 
 }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+    margin:0;
+    padding:0;
+    }
+
+#headBanner {
+    background-color: #aee6ee;
+    width: 100%;
+    height: 100px;
+    display:flex;
+}
+
+#logo {
+   height: 100px;
+   margin-bottom: -110px;
+   
+}
+
+#title {
+    font-size: 5em;
+    color: rgba(8, 8, 8, 0.781);
+    text-align: center;
+}
+
+.photo{
+    /*  width:40%; */
+      border-radius:90%;
+      margin-bottom:10px;
+      }
+
+
+footer{
+   
+    height:30px;
+    background-color:#aee6ee;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.footer{
+    text-decoration: none;
+    color:black;
+}
+
+@media screen and (max-width: 768px) { 
+   
+    #headBanner {
+        background-color: #aee6ee;
+        width: 100%;
+        height: 100px;
+        display:flex;
+    }
+    
+    #logo {
+       height: 90px;
+       margin-bottom: -110px;
+      
+    }
+    
+    #title {
+        font-size: 2em;
+        color: rgba(8, 8, 8, 0.781);
+        text-align: center;
+    }
+    
+ 
+   /* .parent-card{        
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    }
+
+    .card{
+    justify-content: center;
+    margin-bottom:10px;
+        }
+    */
+    
+    .parent-card{
+        display:flex;https://beataskorek.art/wp-content/uploads/2021/02/portfolio1.jpg
+
+    .card{
+    justify-content: center;  
+    flex-basis: calc(30% - 30px);
+    padding:10px;    
+    }
+
+    .card p{
+        text-align: center;
+    }
+
+    .card p a{
+        text-decoration: none;
+        color:black;
+        justify-content: center;
+         margin-bottom:10px;
+    }
+
+    footer{
+   
+        height:30px;
+        background-color:#aee6ee;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .footer{
+        text-decoration: none;
+        color:black;
+    }
+    
+}
+
+
+@media screen and (max-width: 375px) { 
+
+    #headBanner {
+        background-color: #aee6ee;
+        width: 100%;
+        height: 90px;
+        display:flex;
+    }
+    
+    #logo {
+       height: 60px;
+       margin-bottom: -110px;
+      
+    }
+    
+    #title {
+        font-size: 1.5em;
+        color: rgba(8, 8, 8, 0.781);
+        text-align: center;
+    }
+
+.parent-card{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+
+.card{
+    justify-content: center;
+     margin-bottom:10px;
+}
+
+.card p a{
+    text-decoration: none;
+    color:black;
+    justify-content: center;
+     margin-bottom:10px;
+}
+
+.photo{
+   /* width:40%; */
+    border-radius:70%;
+    margin-bottom:10px;
+    }
+
+    footer{
+   
+        height:30px;
+        background-color:#aee6ee;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .footer{
+        text-decoration: none;
+        color:black;
+    }
+    
+  }
