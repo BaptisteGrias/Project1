@@ -41,6 +41,7 @@
     position: relative;
 }
 
+
 #child-photo1 {
     width: 4.5rem;
     height: 4.5rem;
@@ -261,7 +262,8 @@
 
 
 
-
+<img class="photo" src="assets/images/image-carrée.jpg" alt="Logo Wild Code School"></a>
+<p><a href="#">Kevin Touyard</a></p>
 
 
 
@@ -711,6 +713,7 @@ footer{
    /* width:40%; */
     border-radius:70%;
     margin-bottom:10px;
+    margin-top:0;
     }
 
     footer{
