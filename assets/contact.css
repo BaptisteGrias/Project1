@@ -278,26 +278,24 @@ h2 {
 }
 
 h3 {
-    margin: 0;
+    margin: 10px;
 }
 
 .coordonnees-box {
-    border: 0.1px solid lightgrey;
     width: 100%;
-    text-align:  center;
     display:flex;
     flex-direction: column;
+    padding-left: 100px;
    
 }
 
 .message-box {
-    border: 0.1px solid lightgrey;
     width: 100%;
-    text-align: center;
-    display: flex;
+   display: flex;
     flex-direction: column;
-
+    padding-left: 100px;
 }
+
 .etoile {
     color:red;
 }
@@ -310,7 +308,7 @@ h3 {
 
 .bouton {
     position: inherit;
-    margin-top: 30em;
+    margin-top: 20em;
     
     }
 
@@ -322,32 +320,30 @@ h3 {
 
 #nom-form {
     height: 30%;
-    width: 30%;
+    width: 50%;
 }
 
 #email-form {
     height: 30%;
-    width: 30%;
+    width: 50%;
 }
 
 #entreprise-form {
     height: 30%;
-    width: 30%;
+    width: 50%;
     
 }
 #tel-form {
     height: 30%;
-    width: 30%;
+    width: 50%;
 }
 #wilder-form {
     height: 30%;
-    width: 30%;
+    width: 50%;
 }
-#sujet-form {
-    height: 30%;
-    width: 30%;
+
 }
 textarea {
     height: 10em;
-    width: 30%;
+    width: 100%;
 }
