@@ -28,26 +28,39 @@
     flex-wrap: wrap;
 }
 
-.photo {
-    height: 6rem;
-    width: 6.5rem;
-}
+/*Below is the class-chart style*/
 
-#clipShape {
-    display: flex;
+#frame {
+    display: inline-flex;
     justify-content: center;
     width: 100%;
+}
+
+#logo-canvas {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent-photo {
     position: relative;
 }
 
-.photoTest {
+#child-photo1 {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     position: absolute;
-    left: 26.5rem;
-    right: 10rem;
+    left: 27.3rem;
+    top: 5rem;
+}
+
+#child-photo2 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 46rem;
     top: 10rem;
-    bottom: 10rem;
 
 }
