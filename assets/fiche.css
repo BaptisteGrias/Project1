@@ -1,0 +1,610 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/**************headBanner******************/
+
+
+
+ #headBanner {
+    background-color: #fc8a59;
+    width: 100%;
+    height: 150px;
+}
+
+#logo {
+   height: 100px;
+   margin-bottom: -7em;
+   padding-left: 50px;
+}
+
+#title {
+    font-size: 50px;
+    color: rgba(8, 8, 8, 0.781);
+    text-align: center;
+    
+}
+
+/*****************Presentation*****************/
+
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#profile{
+    margin-top: 6em;
+    margin-left: -3em;
+    border-radius: 50px;
+    box-shadow: 3px -1px 11px 6px rgba(0,0,0,0.8);
+    height: 20em;
+    width: 20%;
+}
+
+li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: -1em;
+}
+
+ul li img{
+    height: 3em;
+    display:block;
+    float:left;
+    padding: 5px;
+}
+
+.liens{
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    margin-bottom: 15em;
+    margin-top: 5em;
+    margin-right: 4em;
+    border-radius: 40px;
+    width: 54em;
+    height: 10em;
+}
+
+.nom{
+    font-size: 3em;
+    margin-bottom: 5em;
+    margin-left: -27.5em;
+}
+
+.contact{
+    margin-left: 10em;
+}
+
+button{
+    height: 5em;
+    width: 20em;
+    border-color: black;
+    border-width: 7px;
+    border-radius: 40px;
+    margin-bottom: 10em;
+    position: absolute;
+    top: 750px;
+}
+
+.textPresentation{
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    border-radius: 40px;
+    position: absolute;
+    top: 500px;
+    left: 50em;
+    height: 20em;
+    width: 57em;
+}
+
+#textLiens{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+#text{
+    font-size: 2em;
+    margin-left: 1.2em;
+    text-decoration: underline;
+}
+
+#lorem{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* version mobile fiche wilder */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.pageWilder{
+    margin: 0px;
+    background-color: #ff9900ff;
+    height: 2rem;
+}
+
+
+.pageWilder, h1{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    display: block;
+    text-align: center;
+}
+
+/* logo wild */
+
+
+
+.logoWCS{
+height: 10%;
+width:30%;
+position: relative;
+top: 1%;
+left: 0%;
+}
+
+
+
+/*photo des wilder*/
+
+.photoWilder{
+    margin-top: 10%;
+    height: 60%;
+    width: 60%;
+    border-radius: 80%;
+    animation: apparition 0.8s ease-out;
+}
+
+/* logo réseaux sauciaux */ 
+
+
+.socialMedia{
+    display: inline-block;
+    margin-top: 10%;
+    animation: apparition 0.8s ease-out;
+    }
+  
+
+.logoSocial{
+    padding:10px;
+    height: 10%;
+    width:10%;    
+}
+
+
+.logoSocialGit{
+    height: 15%;
+    width: 15%;       
+}
+
+
+.logoSocialLinkedin{
+    height: 19%;
+    width: 19%;
+    padding-bottom: 10px;
+}
+
+
+.logoMail{
+    height:20%;
+    width: 20%;
+    padding-bottom: 8px;
+}
+
+/* description des wilders */
+
+.bodyWilder{
+    display: block;
+    border: 1px solid black; 
+    margin-top: 10%;
+   margin-left: 10px;
+   margin-right: 10px;
+   animation: apparition 0.8s ease-out;
+   box-shadow: 1px 1px 1px black;
+}
+
+
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+/* mise en place de la version intermediere en l'ipad et le mobile*/
+
+@media screen and (max-width:540px){
+
+}
+.pageWilder{
+    margin: 0px;
+    background-color: #ff9900ff;
+    height: 2rem;
+}
+
+
+.pageWilder, h1{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    display: block;
+    text-align: center;
+}
+
+/* logo wild */
+
+
+
+.logoWCS{
+height: 4rem;
+width:15%;
+position: absolute;
+top: 0%;
+left: 1%;
+}
+
+
+
+/*photo des wilder*/
+
+.photoWilder{
+    margin-top: 7%;
+    height: 50%;
+    width: 50%;
+    border-radius: 80%;
+    animation: apparition 0.8s ease-out;
+}
+
+/* logo réseaux sauciaux */ 
+
+
+.socialMedia{
+    display: inline-block;
+    margin-top: 7%;
+    animation: apparition 0.8s ease-out;
+    }
+  
+
+.logoSocial{
+    padding:10px;
+    height: 10%;
+    width:10%;    
+}
+
+
+.logoSocialGit{
+    height: 15%;
+    width: 15%;       
+}
+
+
+.logoSocialLinkedin{
+    height: 19%;
+    width: 19%;
+    padding-bottom: 10px;
+}
+
+
+.logoMail{
+    height:20%;
+    width: 20%;
+    padding-bottom: 8px;
+}
+
+/* description des wilders */
+
+.bodyWilder{
+    display: block;
+    border: 1px solid black; 
+    font-size: 1.2rem;
+    margin-top: 7%;
+   margin-left: 10px;
+   margin-right: 10px;
+   animation: apparition 0.8s ease-out;
+   box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
+
+
+/* mise en place de la version ipad*/
+
+@media screen and (min-width:768px){
+
+    .logoWCS{
+        height: 4rem;
+        width:15%;
+        position: absolute;
+        top: 0%;
+        left: 1%;
+        }
+        
+        .photoWilder{
+            margin-top: 5%;
+            height: 50%;
+            width: 50%;
+            border-radius: 50%;
+            animation: apparition 0.8s ease-out;
+          
+        }
+        
+        .socialMedia{
+            display: inline-block;
+            margin-top: 10%;
+            animation: apparition 0.8s ease-out;
+            }
+          
+        
+        .logoSocial{
+            padding:10px;
+            height: 10%;
+            width:10%;
+            
+        }
+        
+        .logoSocialGit{
+            height: 13%;
+            width: 13%;
+            
+           
+            }
+        
+        .logoSocialLinkedin{
+            height: 17%;
+            width: 17%;
+            padding-bottom: 10px;
+        }
+        
+        .logoMail{
+            height:17%;
+            width: 17%;
+            padding-bottom: 8px;
+        }
+        
+        .bodyWilder{
+            display: block;
+            border: 1px solid black; 
+            font-size: 1.5rem;
+            margin-top: 5%;
+           margin-left: 10px;
+           margin-right: 10px;
+           animation: apparition 0.8s ease-out;
+           box-shadow: 2px 2px 2px black;
+            }
+           }
