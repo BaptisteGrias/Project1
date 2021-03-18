@@ -60,8 +60,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 22%;
-            top: 30%;
+            left: 19.5%;
+            top: 32%;
         }
 
         #child-photo2 {
@@ -69,9 +69,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 35%;
-            top: 33%;
-
+            left: 19.5%;
+            top: 52%;
         }
 
         #child-photo3 {
@@ -79,9 +78,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 40%;
-            top: 44%;
-
+            left: 22.5%;
+            top: 72%;
         }
 
         #child-photo4 {
@@ -89,9 +87,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 45%;
-            top: 33%;
-
+            left: 29.5%;
+            top: 79%;
         }
 
         #child-photo5 {
@@ -99,9 +96,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 50%;
-            top: 33%;
-
+            left: 41%;
+            top: 75%;
         }
 
         #child-photo6 {
@@ -109,9 +105,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 55%;
-            top: 33%;
-
+            left: 45%;
+            top: 45%;
         }
 
         #child-photo7 {
@@ -119,9 +114,8 @@ html, body {
             height: 7rem;
             border-radius: 50%;
             position: absolute;
-            left: 70%;
-            top: 33%;
-
+            left: 55%;
+            top: 45%;
         }
 
         #child-photo8 {
@@ -302,7 +296,7 @@ footer{
 
 }
 
-/*MEDIA SCREEN PLAN B POUR LE 1200-------------------------------------------------------------------------*/
+/*MEDIA SCREEN PLAN B POUR LE 1024-------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1001px) { 
 
@@ -334,12 +328,14 @@ footer{
         text-align: center;
         padding:5px;
     }
-    
  
     .parent-card{
         display:flex;
         flex-wrap: wrap;
         justify-content: center;
+    /*  background-image: url("assets/images/salmon-logo.png");
+        background-position: center;
+        background-size: cover;      */
     }    
 
     .card{
