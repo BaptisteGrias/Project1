@@ -41,9 +41,14 @@ footer {
     font-family: "Roboto", "Open Sans", "Ubuntu", sans-serif;
 }
 
+.lien-wild{
+    color:blanchedalmond;
+    text-decoration: none;
+}
 
-/*----------------------zone de test scroll to top--------------*/
 
+
+/*----------------------zone de test scroll to top----------------------------*/
 .scroll-top {
     position: fixed;
     bottom: 25px;
@@ -51,13 +56,12 @@ footer {
     z-index: 99;
     outline: none;
     background-color: #efefef;
-    border: 1px solid rgb(211, 208, 208);
+    border: 1px solid #a35b5b;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
-  
-/*----------------------fin de la zone de test --------------*/
+/*----------------------fin de la zone de test --------------------------------*/
 
 
 /*----------------------Below is the class-chart style--------------*/
