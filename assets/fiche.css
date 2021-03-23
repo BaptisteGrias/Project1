@@ -36,20 +36,14 @@ margin-right: 2em;
  
 
  /* version mobile fiche wilder */
-@media screen and (max-width:375px){
-    
-    body{
-        margin: 0%;
-        padding: 0%;
-    }
-    
+@media screen and (max-width:375px) {
     
     #headBanner {
         background-color: #A35B5B;
         width: 100%;
         height: 10em;
         margin-left: -0.5em;
-        margin-top: -0.5em;
+        margin-top: 0.5em;
         margin-bottom: 1rem;
         padding-right: 1.1em;
         display: inline-flex;
@@ -64,61 +58,91 @@ margin-right: 2em;
     }
     
     #title {
-        font-size: 1.5em;
+        font-size: 1em;
         color: white;
-        padding-top: 10%;
         padding-right: 0.5em;
         text-align: center;
         font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
     }
     
     
-    /*photo des wilder + nom*/
-    .ficheWilder{
-       display: flex;
-       justify-content: center;
+    /*photo des wilder*/
+
+    .ficheWilder , .photoWilder{
+       
+        text-align: center;
+        animation: apparition 0.8s ease-out;
     }
 
     .photoWilder{
-        margin-top: 10%;
-        height: 30%;
-        width: 30%;
+        height: 100%;
+        width: 100%;
         border-radius: 50%;
+        align-items: center;   
+    }
+
+    h2{
+        text-align: center;
+        font-family: "Roboto","Ubuntu", "Open Sans", sans-serif;
+        font-weight: normal;
         animation: apparition 0.8s ease-out;
     }
 
-    .name{
-        font-size: 1.7em;
-        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
+
+     /* description des wilders */
+
+     .bodyWilder{
+        display: block;
+        border-radius: 50%;
+        background-color: #EDD7B7;
+        height: 10rem;
+        margin-top: 10%;
+        margin-left: 10px;
+        margin-right: 10px;
+        animation: apparition 0.8s ease-out;
         text-align: center;
+        position: absolute;
+
     }
+
+    .bodyWilder, p{
+        display: flex;
+        justify-content:center;
+        position: relative;
+        font-size: 94%;
+        font-family:"Roboto","Ubuntu", "Open Sans", sans-serif;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 0;
+    }
+
+    
     
     /* logo réseaux sociaux */ 
-    
+    .informations, .socialMedia{
+        text-align: center;
+        animation: apparition 0.8s ease-out;
+    }
     
     .socialMedia{
-        display: inline-block;
+        display: inline;
         margin-top: 10%;
-        animation: apparition 0.8s ease-out;
-        }
-      
-    /*img {
-        width: 15%;
-        height: 15%;
-        align-items: center;
-    }*/
+        justify-content: center;
+    }
+    
 
-
-    .logoSocial{
+    .logoNotion{
         padding:10px;
         height: 10%;
-        width:10%;    
+        width:10%;
+        
     }
     
     
-    .socialMedia > .logoSocialGit{
+    .logoSocialGit{
         height: 1%;
-        width: 1%;       
+        width: 1%;
+        padding-bottom: 3px;       
     }
     
     
@@ -134,20 +158,6 @@ margin-right: 2em;
         width: 20%;
         padding-bottom: 8px;
     }
-    
-    /* description des wilders */
-    
-    .bodyWilder{
-        display: block;
-        border: 1px solid black; 
-        margin-top: 10%;
-        margin-left: 10px;
-        margin-right: 10px;
-        animation: apparition 0.8s ease-out;
-        box-shadow: 1px 1px 1px black;
-
-    }
-    
     
     
     @keyframes apparition{
@@ -166,66 +176,107 @@ margin-right: 2em;
     
     /* mise en place de la version intermediere entre l'ipad et le mobile*/
     
-@media screen and (max-width:540px){
+@media screen and (max-width:540px) {
+
+    #headBanner {
+        background-color: #A35B5B;
+        width: 100%;
+        height: 8em;
+        margin-left: -0.5em;
+        margin-top: -0.5em;
+        margin-bottom: 1rem;
+        padding-right: 1.1em;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
+    #logo {
+       height: 3em;
+       padding-left: 2em;
+       margin-right: 2em;
+    }
     
-    .pageWilder{
-        margin: 0px;
-        background-color: #ff9900ff;
-        height: 2rem;
+    #title {
+        font-size: 2em;
+        color: white;
+        padding-right: 0.5em;
+        text-align: center;
+        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
     }
     
     
-    .pageWilder, h1{
-        margin-top: 0px;
-        padding-top: 10px;
-        padding-bottom: 25px;
-        display: block;
+    /*photo des wilder*/
+
+    .ficheWilder , .photoWilder{
+
         text-align: center;
     }
-     
-    
-    /*photo des wilder + nom*/
-
-    .ficheWilder{
-        display: flex;
-        justify-content: center;
-     }
 
     .photoWilder{
-        margin-top: 7%;
-        height: 50%;
-        width: 50%;
-        border-radius: 80%;
+        
+        height: 40%;
+        width: 40%;
+        border-radius: 50%;
+        align-items: center;
         animation: apparition 0.8s ease-out;
     }
 
-    .name{
-        font-size: 1.7em;
-        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
+    h2{
+        text-align: center;
+        font-family: "Roboto","Ubuntu", "Open Sans", sans-serif;
+        font-weight: normal;
+        animation: apparition 0.8s ease-out;
+    }
+
+    /* description des wilders */
+    
+    .bodyWilder{
+        display: block;
+        border-radius: 50%;
+        font-family:"Ubuntu", "Roboto", "Open Sans", sans-serif;
+        background-color: #EDD7B7;
+        height: 10rem;
+        margin-top: 10%;
+        margin-left: 10px;
+        margin-right: 10px;
+        animation: apparition 0.8s ease-out;
+        text-align: center;
+    }
+
+    .bodyWilder, p{
+        display: flex;
+        justify-content:center;
+        position: relative;
+        font-size: 95%;
+        font-family:"Roboto","Ubuntu", "Open Sans", sans-serif;
+    }
+
+    
+    /* logo réseaux sociaux */ 
+    .informations, .socialMedia{
         text-align: center;
     }
     
-    /* logo réseaux sauciaux */ 
-    
-    
     .socialMedia{
-        display: inline-block;
-        margin-top: 7%;
+        display: inline;
+        margin-top: 10%;
         animation: apparition 0.8s ease-out;
+        justify-content: center;
     }
-      
     
-    .logoSocial{
+
+    .logoNation{
         padding:10px;
         height: 10%;
-        width:10%;    
+        width:10%;
+        
     }
     
     
     .logoSocialGit{
-        height: 15%;
-        width: 15%;       
+        height: 1%;
+        width: 1%;       
     }
     
     
@@ -242,20 +293,7 @@ margin-right: 2em;
         padding-bottom: 8px;
     }
     
-    /* description des wilders */
-    
-    .bodyWilder{
-        display: block;
-        border: 1px solid black; 
-        font-size: 1.2rem;
-        margin-top: 7%;
-       margin-left: 10px;
-       margin-right: 10px;
-       animation: apparition 0.8s ease-out;
-       box-shadow: 1.5px 1.5px 1.5px black;
-    }
-    
-    
+
     @keyframes apparition{
         from{
             opacity: 0;
@@ -268,81 +306,276 @@ margin-right: 2em;
     }
     
 }
-    
+   
     
     /* mise en place de la version ipad*/
     
-@media screen and (max-width:768px){
-    
-    /*photo des wilder + nom*/
+@media screen and (max-width:768px) {
 
-    .ficheWilder{
-       display: flex;
-       justify-content: center;
+    #headBanner {
+        background-color: #A35B5B;
+        width: 100%;
+        height: 8em;
+        margin-left: -0.5em;
+        margin-top: -0.5em;
+        margin-bottom: 1rem;
+        padding-right: 1.1em;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #logo {
+       height: 3em;
+       padding-left: 2em;
+       margin-right: 2em;
+    }
+    
+    #title {
+        font-size: 1.7em;
+        color: white;
+        padding-right: 0.5em;
+        text-align: center;
+        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
+    }
+    
+    
+    /*photo des wilder*/
+
+    .ficheWilder , .photoWilder{
+
+        text-align: center;
     }
 
-            
     .photoWilder{
-        margin-top: 5%;
-        height: 50%;
-        width: 50%;
+        
+        height: 40%;
+        width: 40%;
         border-radius: 50%;
+        align-items: center;
         animation: apparition 0.8s ease-out;
     }
 
-    .name{
-        font-size: 1.7em;
-        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
+    h2{
+        text-align: center;
+        font-family: "Roboto","Ubuntu", "Open Sans", sans-serif;
+        font-weight: normal;
+        animation: apparition 0.8s ease-out;
+    }
+
+    /* description des wilders */
+        
+    .bodyWilder{
+        display: block;
+        border-radius: 50%;
+        font-family:"Ubuntu", "Roboto", "Open Sans", sans-serif;
+        background-color: #EDD7B7;
+        height: 15rem;
+        margin-top: 10%;
+        margin-left: 10px;
+        margin-right: 10px;
+        animation: apparition 0.8s ease-out;
+        text-align: center;
+
+    }
+    .bodyWilder, p{
+        display: flex;
+        justify-content:center;
+        position: relative;
+        font-size: 95%;
+        font-family:"Roboto","Ubuntu", "Open Sans", sans-serif;
+    }
+    
+    /* logo réseaux sociaux */
+
+    .informations, .socialMedia{
         text-align: center;
     }
     
-    /* logo réseaux sauciaux */ 
-    
-            
     .socialMedia{
-        display: inline-block;
+        display: inline;
         margin-top: 10%;
         animation: apparition 0.8s ease-out;
+        justify-content: center;
     }
-              
-            
+    
+
     .logoSocial{
         padding:10px;
         height: 10%;
         width:10%;
-                
+        
     }
-            
+    
+    
     .logoSocialGit{
-        height: 13%;
-           width: 13%;
+        height: 10%;
+        width: 14%;       
     }
-            
+    
+    
     .logoSocialLinkedin{
-        height: 17%;
-        width: 17%;
+        height: 19%;
+        width: 19%;
         padding-bottom: 10px;
     }
-            
+    
+    
     .logoMail{
-           height:17%;
-           width: 17%;
-                padding-bottom: 8px;
+        height:20%;
+        width: 20%;
+        padding-bottom: 8px;
     }
-            
-    .bodyWilder{
-        display: block;
-        border: 1px solid black; 
-        font-size: 1.5rem;
-        margin-top: 5%;
-       margin-left: 10px;
-       margin-right: 10px;
-       animation: apparition 0.8s ease-out;
-       box-shadow: 2px 2px 2px black;
+    
+
+   
+    @keyframes apparition{
+        from{
+            opacity: 0;
+            transform: translateY(-400px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+}
+   @media screen and (max-width:1023px) { 
+
+   #headBanner {
+    background-color: #A35B5B;
+    width: 100%;
+    height: 8em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    margin-bottom: 1rem;
+    padding-right: 1.1em;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+   height: 3em;
+   padding-left: 2em;
+   margin-right: 2em;
+}
+
+#title {
+    color: white;
+    padding-right: 0.5em;
+    text-align: center;
+    font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
+}
+
+
+/*photo des wilder*/
+
+.ficheWilder , .photoWilder{
+
+    text-align: center;
+}
+
+.photoWilder{
+   
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    align-items: center;
+    animation: apparition 0.8s ease-out;
+}
+
+h2{
+    text-align: center;
+    font-family: "Roboto","Ubuntu", "Open Sans", sans-serif;
+    font-weight: normal;
+    animation: apparition 0.8s ease-out;
+}
+
+/* description des wilders */
+    
+.bodyWilder{
+    display: block;
+    border-radius: 50%;
+    font-family:"Ubuntu", "Roboto", "Open Sans", sans-serif;
+    background-color: #EDD7B7;
+    height: 13rem;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: apparition 0.8s ease-out;
+    text-align: center;
+}
+.bodyWilder, p{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    font-size: 95%;
+    font-family:"Roboto","Ubuntu", "Open Sans", sans-serif;
+}
+
+
+
+/* logo réseaux sociaux */
+
+.informations, .socialMedia{
+    text-align: center;
+}
+
+.socialMedia{
+    display: inline;
+    margin-top: 10%;
+    animation: apparition 0.8s ease-out;
+    justify-content: center;
+}
+
+
+.logoSocial{
+    padding:10px;
+    height: 10%;
+    width:10%;
+    
+}
+
+
+.logoSocialGit{
+    height: 10%;
+    width: 14%;       
+}
+
+
+.logoSocialLinkedin{
+    height: 19%;
+    width: 19%;
+    padding-bottom: 10px;
+}
+
+
+.logoMail{
+    height:20%;
+    width: 20%;
+    padding-bottom: 8px;
+}
+
+
+
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
 
-@media screen and (min-width:1024px){
+}
+
+
+@media screen and (min-width:1024px) {
 
     #headBanner {
         background-color: #A35B5B;
@@ -382,13 +615,12 @@ margin-right: 2em;
         width: 100%;
     }
 
-     #body-fiche{
-         display: inline-flex;
-         /*flex-wrap: wrap;*/
-         justify-content: space-around;
-         align-items: center;
-         width: 100%;
-     }
+    #body-fiche{
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
 
      .bodyWilder {
          width : 100%;
@@ -404,7 +636,7 @@ margin-right: 2em;
          margin-left: 8em;
      }
 
-     .logoSocial{
+    .logoSocial{
         padding:10px;
         height: 30%;
         width: 30%;
@@ -430,12 +662,12 @@ margin-right: 2em;
 
 
 
-     .ficheWilder {
-         width: 100%;
-         margin-top: 2rem;
-         justify-content: center;
-         padding-left: 4rem;
-     }
+    .ficheWilder {
+        width: 100%;
+        margin-top: 2rem;
+        justify-content: center;
+        padding-left: 4rem;
+    }
 
 
      .photoWilder {
