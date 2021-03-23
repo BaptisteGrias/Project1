@@ -43,7 +43,8 @@ footer {
 
 /*----------------------Below is the class-chart style--------------*/
 
-@media screen and (min-width: 1024px) {
+/*--------------- Desktop screen size-------------------------------*/
+@media screen and (min-width: 1024px) and (max-width: 1919.95px) {
     #logo {
         height: 5em;
     }
@@ -242,8 +243,7 @@ footer {
 }
 
 /* ---------------------- MEDIA SCREEN POUR GRAND ECRAN -----------------------------*/
-
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) and (max-width: 2159.95px) {
     #logo {
         height: 5em;
     }
@@ -271,6 +271,7 @@ footer {
         border-radius: 90%;
         margin-bottom: 10px;
         transition: transform .2s ease;
+        box-shadow: 5px 5px 20px #403A3E;
     }
     .photo:hover {
         transform: scale(2);
@@ -441,7 +442,6 @@ footer {
 }
 
 /*---------------------------- MEDIA SCREEN POUR TRES GRAND ECRAN ------------------*/
-
 @media screen and (min-width: 2160px) {
     #logo {
         height: 5em;
@@ -471,6 +471,7 @@ footer {
         border-radius: 90%;
         margin-bottom: 10px;
         transition: transform .2s ease;
+        box-shadow: 5px 5px 20px #403A3E;
     }
     .photo:hover {
         transform: scale(2);
@@ -642,7 +643,7 @@ footer {
 
 /*MEDIA SCREEN POUR PC PORTABLE-------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1023.95px) {
+@media screen and (min-width: 768px) and (max-width: 1023.95px) {
     #logo {
         height: 4em;
     }
@@ -707,7 +708,7 @@ footer {
 
 /*MEDIA SCREEN TABLETTE-------------------------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 767.95px) {
     #logo {
         height: 4em;
     }
@@ -766,9 +767,9 @@ footer {
     }
 }
 
-/*MEDIA SCREEN SMARTPHONE -------------------------------------------------------------------------*/
+/*------------------------------MEDIA SCREEN SMARTPHONE -------------------------*/
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 100px) and (max-width: 374.95px) {
     #logo {
         height: 4em;
     }
