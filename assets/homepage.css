@@ -41,6 +41,25 @@ footer {
     font-family: "Roboto", "Open Sans", "Ubuntu", sans-serif;
 }
 
+
+/*----------------------zone de test scroll to top--------------*/
+
+.scroll-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    outline: none;
+    background-color: #efefef;
+    border: 1px solid rgb(211, 208, 208);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+/*----------------------fin de la zone de test --------------*/
+
+
 /*----------------------Below is the class-chart style--------------*/
 
 @media screen and (min-width: 1024px) {
@@ -643,6 +662,8 @@ footer {
 /*MEDIA SCREEN POUR PC PORTABLE-------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1023.95px) {
+
+    
     #logo {
         height: 4em;
     }
