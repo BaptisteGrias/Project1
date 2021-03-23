@@ -344,6 +344,13 @@ margin-right: 2em;
 
 @media screen and (min-width:1024px){
 
+    body{
+        background: #FAFFFC;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+}
+
     #headBanner {
         background-color: #A35B5B;
         width: 100%;
@@ -372,14 +379,17 @@ margin-right: 2em;
     }
 
     .informations {
-        background-color:#EDD7B7;
+        background-color: white;
         display: inline-flex;
         flex-direction: column;
-        margin-right: 20em;
         margin-top: 50px;
         border-radius: 20rem;
-        height: 40rem;
+        height: 37em;
         width: 100%;
+        background: #FAFFFC;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
     }
 
      #body-fiche{
@@ -393,15 +403,16 @@ margin-right: 2em;
      .bodyWilder {
          width : 100%;
          margin-top: 2rem;
-         margin-left: 10em;
+         text-align: center;
      }
 
      .socialMedia{
-         width: 90%;
+         width: 100%;
          display: inline-flex;
          align-items: center;
          margin-top: 2rem;
-         margin-left: 8em;
+         text-align: center;
+         margin-left: 1em;
      }
 
      .logoSocial{
@@ -428,27 +439,27 @@ margin-right: 2em;
         padding-bottom: 8px;
     }
 
-
-
-     .ficheWilder {
+    .ficheWilder {
          width: 100%;
+         height: 100%;
          margin-top: 2rem;
          justify-content: center;
-         padding-left: 4rem;
      }
 
 
      .photoWilder {
-         width: 60%;
-         height: 60%;
+         width: 70%;
+         height: 70%;
          border-radius: 50%;
-         margin-left: 7em;
-         margin-top: 5em;
      }
 
      .name{
         font-size: 2em;
         font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
-        margin-top: 1.5em;
-        margin-left: 10em;
+        text-align: center;
+        margin-top: 3em;
+     }
+
+     button{
+         display: none;
      }
