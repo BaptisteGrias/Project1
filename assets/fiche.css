@@ -366,15 +366,20 @@ margin-right: 2em;
     #title {
         font-size: 3em;
         color: white;
-        padding-right: 0.5em;
+        padding-right: 2em;
         text-align: center;
         font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
     }
 
     .informations {
+        background-color:#EDD7B7;
         display: inline-flex;
         flex-direction: column;
-        margin-left: -18em;
+        margin-right: 20em;
+        margin-top: 50px;
+        border-radius: 20rem;
+        height: 40rem;
+        width: 100%;
     }
 
      #body-fiche{
@@ -434,14 +439,16 @@ margin-right: 2em;
 
 
      .photoWilder {
-         width: 50%;
-         height: 50%;
+         width: 60%;
+         height: 60%;
          border-radius: 50%;
+         margin-left: 7em;
+         margin-top: 5em;
      }
 
      .name{
         font-size: 2em;
         font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
         margin-top: 1.5em;
-        margin-left: 4.9em;
+        margin-left: 10em;
      }
