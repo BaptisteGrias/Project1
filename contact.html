@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="assets/contact.css">
-    <title>Contact</title>
-</head>
+    <title>Portfolio</title>
+  </head>
+
+<header id="headBanner"> 
+  <img id="logo" img src="assets/images/white-logo.png" alt="Logo Wild Code School">
+  <h1 id="title">Portfolio Wilders Mars 2021</h1>
+  <a id="haut"></a>
+</header>
     <body>
-      <header id="headBanner"> 
-        <img id="logo" img src="assets/images/white-logo.png" alt="Logo Wild Code School">
-        <h1 id="title">Portfolio Promo Remote Mars 2021</h1>
-        <a id="haut"></a>
-      </header>
-
-      <h2>Formulaire de contact</h2></br>
-
-        <form class="contact-form">
-
+       <form class="contact-form">
+          
+        </br></br>
             
-            <h3>Vos coordonnées</h3>
-            <div class="coordonnees-box"> 
-              
-            </br>
-            <label for="name">Prénom et Nom <span class="etoile">*</label></span><br/>
-            <input type="text" id="nom-form" name="nom"/><br/><br/>
-
-            <label for="email">Email <span class="etoile">*</span></label><br/>
-            <input type="text" id="email-form" name="email"/><br/><br/>
-
-            <label for="name">Entreprise</label><br/>
-            <input type="text" id="entreprise-form" name="entreprise"/><br/><br/>
-
-            <label for="email">Téléphone</label><br/>
-            <input type="text" id="tel-form" name="telephone"/><br/><br/>
-
-            <label for="email">Wilder </label><br/>
-            <input type="text" id="wilder-form" name="wilder"/><br/><br/>
-
+            <div class="enveloppe"> 
             
-          </div>
+              <img src="assets/images/sceau-rouge-de-cire-sur-l-enveloppe-26475175.jpg" id= "enveloppe" alt="enveloppe">
+             </div>
 
         </br></br>
-
-          <h3>Votre message</h3>
+           
             <div class="message-box">
             </br>
-            <label for="name">Sujet <span class="etoile">*</span></label><br/>
-            <input type="text" id="sujet-form" name="sujet"/><br/><br/><br/>
+            <label for="name">Prénom et Nom <span class="etoile">*</label></span>
+            <input type="text" class="input" name="nom"/><br/>
+
+            <label for="email">Email <span class="etoile">*</span></label>
+            <input type="text" class="input" name="email"/><br/>
+
+            <label for="email">Wilder </label>
+            <input type="text" class="input" name="wilder"/><br/>
+            <label for="name">Sujet <span class="etoile">*</span></label>
+            <input type="text" id="sujet-form" name="sujet" /><br/><br/>
           
-            <label for="message">Message <span class="etoile">*</span></label><br/>
+            <label for="message">Message <span class="etoile">*</span></label>
             <textarea id="message-form" name="message"></textarea><br/><br/>
+
+            <div class="bouton">
+              <input id="submit-form" type="submit" value="Envoyez"  />
+           </div>
           </div>
           <br/>
-            <div class="bouton">
-              
-            <input id="submit-form" type="submit" value="Envoyez"  />
-           </div>
-           
-        </form>
+          
+      </form>
+
+    
         <footer><button><a class="footer" href="#haut">retour en haut</a></button></footer>
       <script src="assets/style.js"></script>
     </body>
