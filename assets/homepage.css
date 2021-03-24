@@ -57,24 +57,55 @@ footer {
 
   }
 
-.btn-darkmode{
+.btn-darkmode {
     margin-left: 1em;
-  }
+    color: #a35b5b;
+    background-color: #ffffff;
+    border: #a35b5b solid 1px;
+    padding:0.5em;
+    border-radius:2em;
+}
 
-  
+.btn-darkmode:hover {
+    margin-left: 1em;
+    transition: all 0.3s ease-in-out;
+    color:white;
+    background-color: #a35b5b;
+    padding:0.5em;
+    border-radius:2em;
+}
+
 /*----------------------zone de test scroll to top----------------------------*/
 .scroll-top {
     position: fixed;
-    bottom: 25px;
+    bottom: 55px;
     right: 25px;
     z-index: 99;
     outline: none;
-    background-color: #efefef;
-    border: 1px solid #a35b5b;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
+}
+
+.card {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: center;
+}
+.card p a {
+    text-decoration: none;
+    color: grey;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.photo {
+    /* width:40%; */
+    border-radius: 70%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    max-width:10rem;
+}
 /*----------------------fin de la zone de test --------------------------------*/
 
 
@@ -780,9 +811,25 @@ footer {
         border-radius: 100%;
         opacity: 0.5;
         display:block;
-      }
+    }
 
    /*end of test animation background----------------------------------------------------*/
+
+   /*scroll to top test ------------------------------------------------------------------*/
+   .scroll-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        z-index: 99;
+        outline: none;
+        background-color: #efefef;
+        border: 1px solid #a35b5b;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    /* end of scroll -------------------------------------------------------------- */
 
     
 
@@ -830,6 +877,7 @@ footer {
         border-radius: 70%;
         margin-bottom: 10px;
         margin-top: 0;
+        width: 14rem;
     }
     footer {
         height: 30px;
