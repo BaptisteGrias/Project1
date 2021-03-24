@@ -678,9 +678,10 @@ h2{
          margin-top: 5em;
      }
 
-     .name{
-        font-size: 2em;
-        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
-        margin-top: 1.5em;
-        margin-left: 10em;
-     }
+    h2{
+        font-size: 30px;
+        width:100%;
+       margin-top: 20rem;
+       margin-right: 5rem;
+    }
+}
