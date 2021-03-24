@@ -17,7 +17,7 @@ function leftRight() {
 
 
 
-
+// animation typewriter du titre h2//
 const txtAnim = document.querySelector('h2');
 
 new Typewriter(txtAnim, {

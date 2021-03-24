@@ -33,10 +33,17 @@ margin-right: 2em;
     font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
 }
 
- 
+
+
 
  /* version mobile fiche wilder */
 @media screen and (max-width:375px) {
+
+   body{
+     background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+    background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+    background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+   }
     
     #headBanner {
         background-color: #A35B5B;
@@ -102,6 +109,9 @@ margin-right: 2em;
         animation: apparition 0.8s ease-out;
         text-align: center;
         position: absolute;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
 
     }
 
