@@ -687,15 +687,18 @@ h2{
          border-radius: 50%;
      }
 
-     .name{
-        font-size: 2em;
-        font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
 
-        text-align: center;
-        margin-top: 3em;
-     }
+    h2{
+        font-size: 30px;
+        width:100%;
+       margin-top: 20rem;
+       margin-right: 5rem;
+    }
 
+
+   
      button{
          display: none;
      }
 
+}
