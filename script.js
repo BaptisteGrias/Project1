@@ -1,3 +1,4 @@
+
 //Parallax function for the background logo on the desktop version of the homepage
 (function() {
     // Add event listener
@@ -21,6 +22,7 @@
 
 
 // WHAT IS IT ?
+
 const wilders = document.querySelector(".photoWilders");
 wilders.style.position = "absolute";
 let position1 = 0;
@@ -37,7 +39,11 @@ function leftRight() {
 }
 
 
+
+
+
 //Text animation on the student name for the mobile version of the fiche pages
+
 const txtAnim = document.querySelector('h2');
 
 new Typewriter(txtAnim, {
