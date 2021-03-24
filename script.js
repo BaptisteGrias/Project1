@@ -1,4 +1,28 @@
 
+//Parallax function for the background logo on the desktop version of the homepage
+(function() {
+    // Add event listener
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#parallax");
+    // Magic happens here
+    function parallax(e) {
+        let _w = window.innerWidth/2;
+        let _h = window.innerHeight/2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.001}% ${50 - (_mouseY - _h) * 0.01}%`;
+        let _depth2 = `${50 - (_mouseX - _w) * 0.001}% ${50 - (_mouseY - _h) * 0.02}%`;
+        let _depth3 = `${50 - (_mouseX - _w) * 0.002}% ${50 - (_mouseY - _h) * 0.06}%`;
+        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+    }
+
+})();
+
+
+// WHAT IS IT ?
+
 const wilders = document.querySelector(".photoWilders");
 wilders.style.position = "absolute";
 let position1 = 0;
@@ -17,7 +41,9 @@ function leftRight() {
 
 
 
-// animation typewriter du titre h2//
+
+//Text animation on the student name for the mobile version of the fiche pages
+
 const txtAnim = document.querySelector('h2');
 
 new Typewriter(txtAnim, {
