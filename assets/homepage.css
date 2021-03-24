@@ -10,11 +10,7 @@ html, body {
 #headBanner {
     background-color: #A35B5B;
     width: 100%;
-<<<<<<< HEAD
-    height: 10rkmodeem;
-=======
     height: 9em;
->>>>>>> origin
     margin-left: -0.5em;
     margin-top: -0.5em;
     margin-bottom: 1rem;
@@ -134,56 +130,56 @@ footer {
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 14%;
-        top: 32%;
+        left: 15%;
+        top: 25%;
     }
     #child-photo2 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 22%;
-        top: 20%;
+        left: 23%;
+        top: 11%;
     }
     #child-photo3 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 23%;
-        top: 40%;
+        left: 24%;
+        top: 35%;
     }
     #child-photo4 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 32%;
-        top: 30%;
+        left: 33%;
+        top: 26%;
     }
     #child-photo5 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 32.5%;
-        top: 50%;
+        left: 33%;
+        top: 41%;
     }
     #child-photo6 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 14%;
-        top: 60%;
+        left: 16%;
+        top: 49%;
     }
     #child-photo7 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 20%;
-        top: 75%;
+        left: 18.5%;
+        top: 60%;
     }
     #child-photo8 {
         width: 11rem;
@@ -191,7 +187,7 @@ footer {
         border-radius: 50%;
         position: absolute;
         left: 30%;
-        top: 68%;
+        top: 58%;
     }
     #child-photo9 {
         width: 11rem;
@@ -199,47 +195,47 @@ footer {
         border-radius: 50%;
         position: absolute;
         left: 41%;
-        top: 62%;
+        top: 50%;
     }
     #child-photo10 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 47%;
-        top: 21%;
+        left: 45%;
+        top: 15%;
     }
     #child-photo11 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 51%;
-        top: 37%;
+        left: 50%;
+        top: 28%;
     }
     #child-photo12 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 51%;
-        top: 54%;
+        left: 50%;
+        top: 45%;
     }
     #child-photo13 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 48%;
-        top: 75%;
+        left: 47%;
+        top: 63%;
     }
     #child-photo14 {
         width: 11rem;
         height: 11em;
         border-radius: 50%;
         position: absolute;
-        left: 60%;
-        top: 69%;
+        left: 59%;
+        top: 37%;
     }
     #child-photo15 {
         width: 11rem;
@@ -247,39 +243,39 @@ footer {
         border-radius: 50%;
         position: absolute;
         left: 67%;
-        top: 80%;
+        top: 67%;
     }
     #child-photo16 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 70%;
-        top: 32%;
+        left: 68%;
+        top: 26%;
     }
     #child-photo17 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 75%;
-        top: 21%;
+        left: 74%;
+        top: 15%;
     }
     #child-photo18 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 80%;
-        top: 40%;
+        left: 77%;
+        top: 31%;
     }
     #child-photo19 {
         width: 11rem;
         height: 11rem;
         border-radius: 50%;
         position: absolute;
-        left: 79%;
-        top: 56%;
+        left: 66%;
+        top: 54%;
     }
     footer {
         height: 30px;
@@ -340,156 +336,156 @@ footer {
         transform: scale(2);
     }
     #child-photo1 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 14%;
-        top: 32%;
-    }
-    #child-photo2 {
-        width: 17rem;
-        height: 17rem;
-        border-radius: 50%;
-        position: absolute;
-        left: 22%;
+        left: 16%;
         top: 18%;
     }
-    #child-photo3 {
-        width: 17rem;
-        height: 17rem;
+    #child-photo2 {
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 23.5%;
-        top: 63%;
+        left: 24%;
+        top: 0%;
+    }
+    #child-photo3 {
+        width: 16rem;
+        height: 16rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 24.5%;
+        top: 31%;
     }
     #child-photo4 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 32.5%;
-        top: 27%;
+        left: 33.5%;
+        top: 20%;
     }
     #child-photo5 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 33%;
-        top: 50%;
+        left: 33.5%;
+        top: 40%;
     }
     #child-photo6 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 14%;
-        top: 80%;
+        left: 16%;
+        top: 53%;
     }
     #child-photo7 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 18%;
-        top: 101%;
+        left: 18.5%;
+        top: 73%;
     }
     #child-photo8 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 33%;
-        top: 95%;
+        left: 31.5%;
+        top: 70%;
     }
     #child-photo9 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
         left: 42%;
-        top: 62%;
+        top: 51%;
     }
     #child-photo10 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 47%;
-        top: 20%;
+        left: 44%;
+        top: 5%;
     }
     #child-photo11 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 51%;
+        top: 21%;
+    }
+    #child-photo12 {
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
         left: 51.5%;
-        top: 60%;
-    }
-    #child-photo12 {
-        width: 17rem;
-        height: 17rem;
-        border-radius: 50%;
-        position: absolute;
-        left: 55%;
-        top: 91%;
+        top: 55%;
     }
     #child-photo13 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 47%;
-        top: 105%;
+        left: 48%;
+        top: 77%;
     }
     #child-photo14 {
-        width: 17rem;
-        height: 17em;
+        width: 16rem;
+        height: 16em;
         border-radius: 50%;
         position: absolute;
-        left: 61%;
+        left: 59.5%;
         top: 45%;
     }
     #child-photo15 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
         left: 70%;
-        top: 79%;
+        top: 81%;
     }
     #child-photo16 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 70.5%;
-        top: 34%;
+        left: 68.5%;
+        top: 21%;
     }
     #child-photo17 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 76%;
-        top: 19%;
+        left: 74%;
+        top: 1%;
     }
     #child-photo18 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 80%;
-        top: 40%;
+        left: 77.5%;
+        top: 25%;
     }
     #child-photo19 {
-        width: 17rem;
-        height: 17rem;
+        width: 16rem;
+        height: 16rem;
         border-radius: 50%;
         position: absolute;
-        left: 80%;
-        top: 67%;
+        left: 77%;
+        top: 50%;
     }
     footer {
         height: 30px;
@@ -552,156 +548,156 @@ footer {
         transform: scale(1.5);
     }
     #child-photo1 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 15%;
-        top: 25%;
+        left: 16.5%;
+        top: 21%;
     }
     #child-photo2 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 22%;
-        top: 13%;
+        left: 24%;
+        top: 0.5%;
     }
     #child-photo3 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 23.7%;
-        top: 58%;
+        left: 25%;
+        top: 54%;
     }
     #child-photo4 {
-        width: 19rem;
-        height: 19em;
-        border-radius: 50%;
-        position: absolute;
-        left: 32.5%;
-        top: 25%;
-    }
-    #child-photo5 {
-        width: 19rem;
-        height: 19rem;
-        border-radius: 50%;
-        position: absolute;
-        left: 33.5%;
-        top: 47%;
-    }
-    #child-photo6 {
-        width: 19rem;
-        height: 19rem;
-        border-radius: 50%;
-        position: absolute;
-        left: 14.5%;
-        top: 68%;
-    }
-    #child-photo7 {
-        width: 19rem;
-        height: 19rem;
-        border-radius: 50%;
-        position: absolute;
-        left: 17%;
-        top: 90%;
-    }
-    #child-photo8 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22em;
         border-radius: 50%;
         position: absolute;
         left: 34%;
-        top: 89.5%;
+        top: 20%;
     }
-    #child-photo9 {
-        width: 19rem;
-        height: 19rem;
+    #child-photo5 {
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 42.5%;
+        left: 34%;
+        top: 40%;
+    }
+    #child-photo6 {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 17%;
+        top: 58%;
+    }
+    #child-photo7 {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 21%;
+        top: 77%;
+    }
+    #child-photo8 {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 38%;
+        top: 85.5%;
+    }
+    #child-photo9 {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 42%;
         top: 58%;
     }
     #child-photo10 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 47%;
-        top: 15%;
+        left: 46%;
+        top: 3%;
     }
     #child-photo11 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 60.5%;
-        top: 24%;
+        left: 61%;
+        top: 18%;
     }
     #child-photo12 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
         left: 52%;
-        top: 55%;
+        top: 35%;
     }
     #child-photo13 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 59%;
-        top: 89%;
+        left: 55.5%;
+        top: 85%;
     }
     #child-photo14 {
-        width: 19rem;
-        height: 19em;
+        width: 22rem;
+        height: 22em;
         border-radius: 50%;
         position: absolute;
-        left: 61.5%;
-        top: 47%;
+        left: 60.5%;
+        top: 45%;
     }
     #child-photo15 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
         left: 70%;
-        top: 78%;
+        top: 80%;
     }
     #child-photo16 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 70.5%;
-        top: 25%;
+        left: 69%;
+        top: 21%;
     }
     #child-photo17 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
         left: 78%;
-        top: 15.5%;
+        top: 14%;
     }
     #child-photo18 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 80.5%;
+        left: 78%;
         top: 40%;
     }
     #child-photo19 {
-        width: 19rem;
-        height: 19rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         position: absolute;
-        left: 80.5%;
-        top: 65%;
+        left: 68%;
+        top: 60%;
     }
     footer {
         height: 30px;
