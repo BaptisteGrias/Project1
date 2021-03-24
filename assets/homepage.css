@@ -4,12 +4,17 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 #headBanner {
     background-color: #A35B5B;
     width: 100%;
+<<<<<<< HEAD
+    height: 10rkmodeem;
+=======
     height: 9em;
+>>>>>>> origin
     margin-left: -0.5em;
     margin-top: -0.5em;
     margin-bottom: 1rem;
@@ -40,6 +45,42 @@ footer {
     padding: 5px;
     font-family: "Roboto", "Open Sans", "Ubuntu", sans-serif;
 }
+
+.lien-wild{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+.ball{
+    display:none;
+}
+/*----------------------dark mode-------------------------------------------------------------------------------*/
+.dark-mode {
+    background-color: rgb(51, 23, 23);
+    color: white;
+
+  }
+
+.btn-darkmode{
+    margin-left: 1em;
+  }
+
+  
+/*----------------------zone de test scroll to top----------------------------*/
+.scroll-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    outline: none;
+    background-color: #efefef;
+    border: 1px solid #a35b5b;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+/*----------------------fin de la zone de test --------------------------------*/
+
 
 /*----------------------Below is the class-chart style--------------*/
 
@@ -709,15 +750,7 @@ footer {
     }
     .card {
         justify-content: center;
-        flex-basis: calc(20% - 30px);
-        padding: 10px;
-    }
-    .card p {
-        text-align: center;
-    }
-    .card p a {
-        text-decoration: none;
-        color: black;
+        flex-basis: cToggle dark modek;
         justify-content: center;
         margin-bottom: 10px;
     }
@@ -743,6 +776,20 @@ footer {
 /*MEDIA SCREEN TABLETTE-------------------------------------------------------------------------*/
 
 @media screen and (min-width: 375px) and (max-width: 767.95px) {
+
+
+    /*test animation background----------------------------------------------------*/
+    .ball {
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.5;
+        display:block;
+      }
+
+   /*end of test animation background----------------------------------------------------*/
+
+    
+
     #logo {
         height: 4em;
     }
@@ -779,7 +826,7 @@ footer {
     }
     .card p a {
         text-decoration: none;
-        color: black;
+        color: grey;
         justify-content: center;
         margin-bottom: 10px;
     }
