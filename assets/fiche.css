@@ -28,7 +28,6 @@
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -39,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;    
+    padding: 5px;
 }
 
 .lien-wild{
