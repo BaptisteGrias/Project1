@@ -87,10 +87,11 @@ footer {
         height: 100%;
         width: 100%;
         text-align: center;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: rgb(58, 56, 56);
     }
-    .etoile {
-        color: red;
-    }
+    
     #email-wilder {
         font-style: italic;
         text-align: center;
@@ -109,11 +110,12 @@ footer {
     }
     .input-selector {
         height: 10%;
-        width: 100%;
+        width: 90%;
         border-radius: 25px;
         background-color: #e6e6e6;
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
+        margin: auto;
 
     }
     .box {
@@ -135,11 +137,12 @@ footer {
     }
     #message-form {
         height: 12em;
-        width: 100%;
+        width: 90%;
         border-radius: 25px;
         background-color: #e6e6e6;
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
+        margin: auto;
     }
     .background-img {
         text-align: center;
@@ -206,10 +209,11 @@ footer {
         height: 100%;
         width: 100%;
         text-align: center;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: rgb(58, 56, 56);
     }
-    .etoile {
-        color: red;
-    }
+    
     #email-wilder {
         font-style: italic;
         text-align: center;
@@ -228,11 +232,12 @@ footer {
     }
     .input-selector {
         height: 3em;
-        width: 100%;
+        width: 90%;
         border-radius: 25px;
         background-color: #e6e6e6;
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
+        margin: auto;
     }
     #sujet-form {
         height: 3em;
@@ -244,11 +249,12 @@ footer {
     }
     #message-form {
         height: 12em;
-        width: 100%;
+        width: 90%;
         border-radius: 25px;
         background-color: #e6e6e6;
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
+        margin: auto;
     }
     .background-img {
         text-align: center;
@@ -322,11 +328,13 @@ footer {
         margin-right: 15em;
         width: 100%;
         text-align: center;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: rgb(58, 56, 56);
+        background-color: lightgray;
         
     }
-    .etoile {
-        color: red;
-    }
+    
     #email-wilder {
         font-style: italic;
         text-align: center;
@@ -345,20 +353,22 @@ footer {
     }
     .input-selector {
         height: 3em;
-        width: 100%;
-        background-color: #e6e6e6;
+        width: 90%;
+        background-color: lightgray;
         border-radius: 25px;
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
+        margin: auto;
     }
    
     #message-form {
         height: 12em;
-        width: 100%;
+        width: 90%;
         border-radius: 25px;
-        background-color: #e6e6e6;
+        background-color: lightgray;
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
+        margin: auto;
     }
     .background-img {
         text-align: center;
