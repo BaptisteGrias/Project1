@@ -103,7 +103,7 @@ footer {
         height: 3em;
         margin-bottom: 20px;
     }
-    .input {
+    .input-selector {
         height: 10%;
         width: 100%;
         border-radius: 25px;
@@ -210,7 +210,7 @@ footer {
         height: 3em;
         margin-bottom: 20px;
     }
-    .input {
+    .input-selector {
         height: 3em;
         width: 100%;
         border-radius: 25px;
@@ -315,7 +315,7 @@ footer {
         height: 3em;
         margin-bottom: 20px;
     }
-    .input {
+    .input-selector {
         height: 3em;
         width: 100%;
         background-color: #e6e6e6;
@@ -359,12 +359,23 @@ footer {
     input[type="submit"]#submit-form:hover {
         border: 5px solid black;
       }
+
+      .input-selector:hover {
+        border: 5px solid black;
+      }
+
+    #sujet-form:hover {
+        border: 5px solid black;
+      }
+    #message-form:hover {
+        border: 5px solid black;
+      }
+      
     footer {
-        height: 5em;
         background-color: #A35B5B;
         width: 100%;
-        margin: 0;
-        padding: 0;
+        height: 100px;
+        display: flex;
     
     }
     
@@ -464,7 +475,7 @@ footer {
         display: block;
         margin-left: 15%;
         margin-right: auto;
-        margin-top: 10%;
+        margin-top: 5%;
         width: 100%;
     }
     
@@ -480,7 +491,7 @@ footer {
         border: 5px solid black;
       }
 
-    .input:hover {
+    .input-selector:hover {
         border: 5px solid black;
       }
 
@@ -494,9 +505,8 @@ footer {
     footer {
         background-color: #A35B5B;
         width: 100%;
-        height: 5em;
-        margin: 0;
-        padding: 0;
+        height: 100px;
+        display: flex;
     }
     button {
         display:none;
