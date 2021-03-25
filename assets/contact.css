@@ -49,6 +49,10 @@ footer {
 }
 
 @media screen and (min-width: 100px) and (max-width: 374.95px) {
+    body{
+        background-color: rgb(230, 230, 230) ;
+         }
+    
     #logo {
         height: 4em;
     }
@@ -112,6 +116,14 @@ footer {
         text-align: center;
 
     }
+    .box {
+        animation: fontbulger 15s ;
+         color:   #A35B5B;
+        font-weight: bold;
+        font-family: Roboto;
+        margin: 30px;
+        font-size: 25px;
+   }
 
     #sujet-form {
         height: 3em;
@@ -140,7 +152,7 @@ footer {
     input[type="submit"]#submit-form:hover {
         border: 3px solid black;
       }
-    footer {
+    .footer {
         height: 30px;
         background-color: #A35B5B;
         display: flex;
@@ -153,6 +165,10 @@ footer {
 }
 
 @media screen and (min-width: 375px) and (max-width: 767.95px) {
+    body{
+        background-color: rgb(230, 230, 230) ;
+         }
+    
     #logo {
         height: 4em;
     }
@@ -237,6 +253,14 @@ footer {
     .background-img {
         text-align: center;
     }
+    .box {
+        animation: fontbulger 15s ;
+         color:   #A35B5B;
+        font-weight: bold;
+        font-family: Roboto;
+        margin: 30px;
+        font-size: 25px;
+   }
     #enveloppe {
         margin: 5%;
         padding: 5%;
@@ -244,7 +268,7 @@ footer {
     input[type="submit"]#submit-form:hover {
         border: 3px solid black;
       }
-    footer {
+    .footer {
         height: 30px;
         background-color: #A35B5B;
         display: flex;
@@ -257,6 +281,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023.95px) {
+    body{
+        background-color: rgb(230, 230, 230) ;
+         }
+    
     #logo {
         height: 4.5em;
     }
@@ -323,14 +351,7 @@ footer {
         border: 0.1em solid rgb(180, 57, 57);
         text-align: center;
     }
-    #sujet-form {
-        height: 3em;
-        width: 100%;
-        border-radius: 25px;
-        background-color: #e6e6e6;
-        border: 0.1em solid rgb(180, 57, 57);
-        text-align: center;
-    }
+   
     #message-form {
         height: 12em;
         width: 100%;
@@ -342,6 +363,14 @@ footer {
     .background-img {
         text-align: center;
     }
+    .box {
+        animation: fontbulger 15s ;
+         color:   #A35B5B;
+        font-weight: bold;
+        font-family: Roboto;
+        margin: 30px;
+        font-size: 25px;
+   }
     #enveloppe {
         margin-left: 15%;
         margin-right: auto;
@@ -371,11 +400,14 @@ footer {
         border: 5px solid black;
       }
       
-    footer {
-        background-color: #A35B5B;
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
         width: 100%;
-        height: 100px;
-        display: flex;
+        background-color: #A35B5B;
+        height: 50px;
+        text-align: center;
     
     }
     
@@ -385,6 +417,11 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+
+    body{
+     background-color: rgb(230, 230, 230) ;
+      }
+
     #logo {
         height: 5em;
     }
@@ -417,6 +454,10 @@ footer {
         height: 100%;
         width: 100%;
         text-align: center;
+        background-color: lightgray;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: rgb(58, 56, 56);
     }
     .enveloppe {
         display: flex;
@@ -446,47 +487,70 @@ footer {
     }
     .input-selector {
         height: 3em;
-        width: 100%;
+        width: 95%;
         border-radius: 25px;
-        background-color: #e6e6e6;
-        border: 0.1em solid rgb(180, 57, 57);
+        background-color:lightgray;
+        border: 0.2em solid #A35B5B;
         text-align: center;
+        margin:auto;
     
     }
 
-    #sujet-form {
-        height: 3em;
-        width: 100%;
-        border-radius: 25px;
-        background-color: #e6e6e6;
-        border: 0.1em solid rgb(180, 57, 57);
-        text-align: center;
-    }
-    #message-form {
+    textarea {
         height: 12em;
-        width: 100%;
+        width: 95%;
         border-radius: 25px;
-        background-color: #e6e6e6;
-        border: 0.1em solid rgb(180, 57, 57);
+        background-color: lightgray;
+        border: 0.2em solid #A35B5B;
         text-align: center;
+        margin: auto;
+
     }
 
+    @keyframes fontbulger {
+        0%, 100% {
+                font-size: 25px;
+        }
+        50% {
+                font-size: 90px;
+        }
+}
+    .box {
+     animation: fontbulger 15s ;
+      color:   #A35B5B;
+     font-weight: bold;
+     font-style: italic;
+     font-family: Roboto;
+     font-size: 25px;
+     margin: 5px;
+}
     #enveloppe {
         display: block;
-        margin-left: 15%;
+        margin-left: 20%;
         margin-right: auto;
-        margin-top: 5%;
-        width: 100%;
-    }
-    
-    .enveloppe img {
-        width: 100%;
-        transition: 0.7s all ease-in-out;
-    }
-       
-    .enveloppe:hover img {
-        transform: scale(1.2);
-    }
+        margin-top: 20%;
+        width: 50%;
+        animation-duration: 25s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 200%;
+          width: 50%;
+        }
+        50% {
+          font-size: 100%;
+          margin-left: 30%;
+          width: 50%;
+        }
+      
+        to {
+          margin-left: 20%;
+          width: 50%;
+        }
+      }
+
    #submit-form:hover {
         border: 5px solid black;
       }
@@ -502,11 +566,14 @@ footer {
         border: 5px solid black;
       }
 
-    footer {
-        background-color: #A35B5B;
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
         width: 100%;
-        height: 100px;
-        display: flex;
+        background-color: #A35B5B;
+        height: 50px;
+        text-align: center;
     }
     button {
         display:none;
