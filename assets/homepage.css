@@ -88,8 +88,7 @@ footer {
     padding: 15px;
     border-radius: 4px;
   }
-/*----------------------fin de la zone de test --------------------------------*/
-
+/*----------------------scroll progress bar --------------------------------*/
 
 /*----------------------Below is the class-chart style--------------*/
 
@@ -800,14 +799,10 @@ footer {
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
 
-    /*test animation background----------------------------------------------------*/
-    .ball {
-        position: absolute;
-        border-radius: 100%;
-        opacity: 0.5;
-        display:block;
-      }
+  
 
+
+      
    /*croll to top test ------------------------------------------------------------------*/
    .scroll-top {
     position: fixed;
@@ -871,7 +866,15 @@ footer {
         margin-bottom: 10px;
         margin-top: 0;
         width:14rem;
+        
     }
+
+    .photo:hover{
+        filter: sepia(80%);
+        transition-duration: 500ms;
+        
+    }
+
     footer {
         height: 30px;
         background-color: #A35B5B;
@@ -888,19 +891,6 @@ footer {
 /*------------------------------MEDIA SCREEN SMARTPHONE -------------------------*/
 
 @media screen and (min-width: 100px) and (max-width: 374.95px) {
-   
-    /*test animation background----------------------------------------------------*/
-    .ball {
-        position: absolute;
-        border-radius: 100%;
-        opacity: 0.5;
-        display:block;
-      }
-
-   /*end of test animation background----------------------------------------------------*/
-
-    
-   
    
    
     #logo {
@@ -947,6 +937,7 @@ footer {
         margin-bottom: 10px;
         margin-top: 0;
     }
+    
     footer {
         height: 30px;
         background-color: #A35B5B;
