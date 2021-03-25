@@ -781,6 +781,12 @@ footer {
         margin-top: 0;
         max-width:10rem;
     }
+
+    .photo:hover{
+        filter: sepia(80%);
+        transition-duration: 500ms;
+        
+    }
     footer {
         height: 30px;
         background-color: #A35B5B;
@@ -800,7 +806,6 @@ footer {
 
 
   
-
 
       
    /*croll to top test ------------------------------------------------------------------*/
