@@ -64,7 +64,7 @@ const form = document.querySelector(".contact-form");
 
 form.onsubmit = function(event) {
   event.preventDefault();
-  alert(`Merci ${userName.value} de nous avoir contacté!`);
+  alert(`Merci ${userName.value} de nous avoir contacté !`);
 }
 
 //Text animation on the student name for the mobile version of the fiche pages
