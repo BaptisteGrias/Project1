@@ -592,6 +592,7 @@ h2{
         background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
         background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
         background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+        min-height: 98vh;
 }
 
     #headBanner {
@@ -654,20 +655,29 @@ h2{
          align-items: center;
          margin-top: 6rem;
          text-align: center;
-         
      }
 
     .logoSocial{
         padding:10px;
         height: 30%;
         width: 30%;
-            
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
     }
             
     .logoSocialGit{
         height: 50%;
         width: 50%;
         margin-left: 5em;
+        transform: rotateY(2turn);
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
     }
             
     .logoSocialLinkedin{
@@ -675,6 +685,11 @@ h2{
         width: 40%;
         padding-bottom: 5px;
         margin-left: 3em;
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
     }
             
     .logoMail{
@@ -682,10 +697,8 @@ h2{
         width: 40%;
         padding-bottom: 8px;
         margin-right: 3em;
-
-
         animation-name: rotate;
-        animation-duration: 0.8s;
+        animation-duration: 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         animation-timing-function: ease-in-out;
@@ -695,7 +708,7 @@ h2{
     @keyframes rotate
 {  
     from {transform: rotateY(0deg);}
-    to {transform: rotateY(180deg);}
+    to {transform: rotateY(360deg);}
 }
 
 
@@ -714,10 +727,8 @@ h2{
          border-radius: 50%;
          animation-name: slideIn;
          animation-duration: 6s;
-         animation-iteration-count: infinite;
+         animation-iteration-count: 1;
      }
-
-
 
 
      @keyframes slideIn {
