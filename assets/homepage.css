@@ -34,14 +34,18 @@ html, body {
     font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
 }
 .footer {
-    position:fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 3em;
+    height: 2em;
     background-color: #A35B5B;
     font-family: "Roboto", "Open Sans", "Ubuntu", sans-serif;
     margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;    
 }
 
 .lien-wild{
