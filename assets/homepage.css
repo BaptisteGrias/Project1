@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: white;
+    min-height: 1vh;
 }
 
 #headBanner {
@@ -32,14 +33,15 @@ html, body {
     padding-right: 0.5em;
     font-family: "Ubuntu", "Roboto", "Open Sans", sans-serif;
 }
-
-footer {
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     height: 3em;
     background-color: #A35B5B;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
     font-family: "Roboto", "Open Sans", "Ubuntu", sans-serif;
+    margin-top: 5px;
 }
 
 .lien-wild{
@@ -787,6 +789,13 @@ footer {
         margin-bottom: 10px;
         margin-top: 0;
     }
+
+    .photo:hover {
+        filter: sepia(80%);
+        transition-duration: 500ms;
+
+    }
+
     footer {
         height: 30px;
         background-color: #A35B5B;
@@ -798,14 +807,7 @@ footer {
         text-decoration: none;
         color: black;
     }
-}
-
-/*MEDIA SCREEN TABLETTE-------------------------------------------------------------------------*/
-
-@media screen and (min-width: 375px) and (max-width: 767.95px) {
-
-
-    /*test animation background----------------------------------------------------*/
+    /*animation background----------------------------------------------------*/
     .ball {
         position: absolute;
         border-radius: 100%;
@@ -813,7 +815,23 @@ footer {
         display:block;
     }
 
-   /*end of test animation background----------------------------------------------------*/
+   /*end animation background----------------------------------------------------*/
+}
+
+/*MEDIA SCREEN TABLETTE-------------------------------------------------------------------------*/
+
+@media screen and (min-width: 375px) and (max-width: 767.95px) {
+
+
+    /*animation background----------------------------------------------------*/
+    .ball {
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.5;
+        display:block;
+    }
+
+   /*end animation background----------------------------------------------------*/
 
    /*scroll to top test ------------------------------------------------------------------*/
    .scroll-top {
@@ -879,6 +897,13 @@ footer {
         margin-top: 0;
         width: 14rem;
     }
+
+    .photo:hover{
+        filter: sepia(80%);
+        transition-duration: 500ms;
+
+    }
+
     footer {
         height: 30px;
         background-color: #A35B5B;
@@ -939,6 +964,11 @@ footer {
         margin-bottom: 10px;
         margin-top: 0;
     }
+    .photo:hover{
+        filter: sepia(80%);
+        transition-duration: 500ms;
+
+    }
     footer {
         height: 30px;
         background-color: #A35B5B;
@@ -950,4 +980,13 @@ footer {
         text-decoration: none;
         color: black;
     }
+    /*animation background----------------------------------------------------*/
+    .ball {
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.5;
+        display:block;
+    }
+
+   /*end animation background----------------------------------------------------*/
 }
