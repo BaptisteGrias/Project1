@@ -188,6 +188,14 @@ margin-right: 2em;
     
 @media screen and (max-width:540px) {
 
+
+    body{
+        background: #FAFFFC;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+}
+
     #headBanner {
         background-color: #A35B5B;
         width: 100%;
@@ -252,6 +260,9 @@ margin-right: 2em;
         margin-right: 10px;
         animation: apparition 0.8s ease-out;
         text-align: center;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
     }
 
     .bodyWilder, p{
@@ -322,6 +333,14 @@ margin-right: 2em;
     
 @media screen and (max-width:768px) {
 
+    body{
+        min-height: 100vh;
+        background: #FAFFFC;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+}
+
     #headBanner {
         background-color: #A35B5B;
         width: 100%;
@@ -386,6 +405,9 @@ margin-right: 2em;
         margin-right: 10px;
         animation: apparition 0.8s ease-out;
         text-align: center;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
 
     }
     .bodyWilder, p{
@@ -453,6 +475,13 @@ margin-right: 2em;
 }
    @media screen and (max-width:1023px) { 
 
+    body{
+        background: #FAFFFC;
+        background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+}
+
    #headBanner {
     background-color: #A35B5B;
     width: 100%;
@@ -516,6 +545,9 @@ h2{
     margin-right: 10px;
     animation: apparition 0.8s ease-out;
     text-align: center;
+    background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+    background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
+    background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
 }
 .bodyWilder, p{
     display: flex;
@@ -588,10 +620,10 @@ h2{
 @media screen and (min-width:1024px) {
 
     body{
-        background: #FAFFFC;
+        min-height: 96.8vh;
         background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
         background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
-        background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+        background: linear-gradient(to bottom , #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
 }
 
     #headBanner {
@@ -737,6 +769,7 @@ h2{
         font-size: 2em;
         text-align: center;
         margin-top: 1em;
+        font-family: "Roboto", "Ubuntu", "Open Sans", sans-serif;
      }
 
    
