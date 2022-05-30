@@ -1,0 +1,23 @@
+{
+  "name": "Project1",
+  "version": "1.0.0",
+  "description": "équipe acceuil mobile Jérome Violaine équipe fiche mobile Baptiste Edouard équipe contact mobile Julien",
+  "main": "fiche.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaptisteGrias/Project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaptisteGrias/Project1/issues"
+  },
+  "homepage": "https://github.com/BaptisteGrias/Project1#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
