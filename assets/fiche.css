@@ -398,6 +398,7 @@
         background: -moz-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
         background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
         background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
+        overflow: hidden;
     }
     #headBanner {
         background-color: #A35B5B;
@@ -510,6 +511,7 @@
         background: -webkit-linear-gradient(top, #FAFFFC 0%, #A45D42 100%, #A35B5B 100%);
         background: linear-gradient(to bottom, #FAFFFC 0%, #A35B5B 100%, #A35B5B 100%);
         min-height: 98vh;
+        overflow: hidden;
     }
     #headBanner {
         background-color: #A35B5B;
